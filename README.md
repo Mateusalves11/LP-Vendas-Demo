@@ -1,2 +1,2 @@
 # LP-Vendas-Demo
-Demonstração de uma landin page
+Demonstração de uma landing page de vendas
