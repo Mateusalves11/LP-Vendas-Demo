@@ -10,26 +10,232 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
-    <main>
-        <div>
-            <div>
-                <h1>Se preocupe apenas em vender!</h1>
-                <p>A parte difícil a gente cuida pra você.</p>
+    <header class='header'>
+        <nav class='navBar'>
+            <p style='font-size: 20px;'>Sua marca</p>
+            <ul>
+                <li>Serviços</li>
+                <li>Contato</li>
+                <li>Trabalhos</li>
+            </ul>
+            <div></div>
+        </nav>
+        <div class='container'>
+            <div class='headerTxt1'>
+                <div style='max-width: 800px;'>
+                    <h1>Se preocupe
+                        <span class='textYellow'>
+                            apenas em
+                        </span>
+                        vender!
+                        <span style='font-size: 2.5vw;'>
+                            A parte difícil a gente cuida pra você.
+                        </span>
+                    </h1>
+                </div>
+                <div style='min-width: 330px;'>
+                    <img src="assets/others/imagem_principal.png" alt="">
+                </div>
             </div>
-            <img src="assets/computers/imagem_principal.png" alt="">
+            <div class='headerTxt2'>
+                <div style='min-width: 330px;'>
+                    <img src="assets/others/computerSocial.png" alt="">
+                </div>
+
+                <p style='max-width: 800px;'>
+                    Nossa empresa consiste em otimizar suas vendas através de uma ferramenta chamada tráfego
+                    pago(anúncios
+                    pagos usando Facebook, Instagram e Google).
+                    Temos a parte de social mídia, usada para cuidar de suas redes sociais!!!
+                </p>
+            </div>
         </div>
-        <div>
-            <img src="assets/computers/computerSocial.png" alt="">
-            <p>
-                Nossa empresa consiste em otimizar suas vendas através de uma ferramenta chamada tráfego pago(anúncios
-                pagos usando Facebook, Instagram e Google).
-                Temos a parte de social mídia, usada para cuidar de suas redes sociais!!!
-            </p>
+    </header>
+
+    <main class='services'>
+        <div class='spacer layer1'></div>
+        <div class='container servicesContainer'>
+            <h1 style='font-weight: 600; font-size: 5vw;'>Nossos serviços</h1>
+            <div class='cardsContainer'>
+                <div class='cardServices cardServicesLeft'>
+                    <div class='cardServicesTitle'>
+                        <h1>Redes Sociais</h1>
+                    </div>
+                    <div class='cardServicesMultiTexts'>
+                        <p>- Facebook</p>
+                        <p>- Instagram</p>
+                        <p>- Twitter</p>
+                        <p>- Google Ads</p>
+                    </div>
+                    <p class='textGrayBoulder'>OBS: De acordo com o contrato feito entre a nossa empresa!</p>
+                </div>
+                <div class='cardServices cardServiceTop'>
+                    <div class='cardServicesTitle'>
+                        <h1>Plataformas</h1>
+                    </div>
+                    <div>
+                        <p>- Ifood, Uber, Rappi? Sim, cuidamos para você, fique tranquilo!</p>
+                    </div>
+                    <p class='textGrayBoulder'>OBS: De acordo com o contrato feito entre a nossa empresa!</p>
+                </div>
+                <div class='cardServices cardServicesLeft'>
+                    <div class='cardServicesTitle'>
+                        <h1>Outros</h1>
+                    </div>
+                    <div class='cardServicesMultiTexts'>
+                        <p>- Serviços fornecidos</p>
+                        <p>- Serviços fornecidos</p>
+                        <p>- Serviços fornecidos</p>
+                        <p>- Serviços fornecidos</p>
+                    </div>
+                    <p class='textGrayBoulder'>OBS: De acordo com o contrato feito entre a nossa empresa!</p>
+                </div>
+            </div>
         </div>
     </main>
+
+    <section class='contact'>
+        <div class='spacer layer2'></div>
+        <div class='container'>
+            <div class='contactContainer'>
+                <h1 style='font-size: 5vw; letter-spacing: 2px;'>Entre em contato</h1>
+                <div class='contactInputContainer'>
+                    <div style='display: flex; gap: 16px; width: 100%;'>
+                        <input type="text" placeholder='Seu nome'>
+                        <input type="text" placeholder='Seu e-mail'>
+                    </div>
+                    <input type="text" placeholder='Nº de celular com DDD'>
+                </div>
+                <div class='buttonContactDiv'>
+                    <button>Enviar</button>
+                </div>
+            </div>
+        </div>
+        <div class='spacer layer3'></div>
+    </section>
+
+    <section style='background-color: #2C9449;' class='team'>
+        <div class='CEOTeamContainer container'>
+            <div class='CEOImgContainer'>
+                <div style='min-width: 150px;'>
+                    <img class='CEOImg' src="assets/persons/CEO.png" alt="">
+                </div>
+                <h2>Pessoa (CEO)</h2>
+            </div>
+            <p style='max-width: 1000px; text-align: center;'>
+                Lorem Ipsum é simplesmente texto fictício da indústria
+                de impressão e digitação. Lorem Ipsum tem sido o texto
+                falso padrão da indústria desde 1500, quando uma impressora
+                desconhecida pegou uma galera do tipo e a embaralhou
+                para fazer um livro de espécimes.
+            </p>
+        </div>
+
+        <div class='teamPersonsContainer'>
+            <div style='display: flex; gap: 12px; justify-content: center;'>
+                <h1 style='font-weight: 600; letter-spacing: 3px;'>Equipe</h1>
+                <div class='heart'></div>
+            </div>
+            <div class='teamPersonWrap'>
+                <div class='personTeam'>
+                    <img src="assets/persons/person1.png" alt="">
+                    <p>Pessoa 1</p>
+                </div>
+                <div class='personTeam'>
+                    <img src="assets/persons/person2.png" alt="">
+                    <p>Pessoa 2</p>
+                </div>
+                <div class='personTeam'>
+                    <img src="assets/persons/person3.png" alt="">
+                    <p>Pessoa 3</p>
+                </div>
+                <div class='personTeam'>
+                    <img src="assets/persons/person4.png" alt="">
+                    <p>Pessoa 4</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class='jobs'>
+        <div class='spacer layer1'></div>
+        <h1 style='font-weight: 600; font-size: 5vw; margin-bottom: 8vw;'>Trabalhos</h1>
+        <div id='sliderJobs' class='sliderJobs'>
+            <div class='sliderItem'>
+                <img src="assets/slider/Rectangle1.png" alt="">
+                <a href="">Clique aqui e Veja mais!</a>
+            </div>
+            <div class='sliderItem'>
+                <img src="assets/slider/Rectangle2.png" alt="">
+                <a href="">Clique aqui e Veja mais!</a>
+            </div>
+            <div class='sliderItem'>
+                <img src="assets/slider/Rectangle1.png" alt="">
+                <a href="">Clique aqui e Veja mais!</a>
+            </div>
+            <div class='sliderItem'>
+                <img src="assets/slider/Rectangle2.png" alt="">
+                <a href="">Clique aqui e Veja mais!</a>
+            </div>
+            <div class='sliderItem'>
+                <img src="assets/slider/Rectangle1.png" alt="">
+                <a href="">Clique aqui e Veja mais!</a>
+            </div>
+            <div class='sliderItem'>
+                <img src="assets/slider/Rectangle2.png" alt="">
+                <a href="">Clique aqui e Veja mais!</a>
+            </div>
+            <div class='sliderItem'>
+                <img src="assets/slider/Rectangle1.png" alt="">
+                <a href="">Clique aqui e Veja mais!</a>
+            </div>
+            <div class='sliderItem'>
+                <img src="assets/slider/Rectangle2.png" alt="">
+                <a href="">Clique aqui e Veja mais!</a>
+            </div>
+            <div class='sliderItem'>
+                <img src="assets/slider/Rectangle1.png" alt="">
+                <a href="">Clique aqui e Veja mais!</a>
+            </div>
+            <div class='sliderItem'>
+                <img src="assets/slider/Rectangle2.png" alt="">
+                <a href="">Clique aqui e Veja mais!</a>
+            </div>
+        </div>
+    </section>
+
+    <section class='companyContact'>
+        <div class='spacer layer4'></div>
+        <div class='companyContactWrap'>
+            <div class='contactDirectWrapper'>
+                <h1>Contato direto</h1>
+                <p>seu_email@gmail.com</p>
+                <p>11 91234-5678</p>
+                <p>Seu nome - Nome da empresa</p>
+                <p>Rua. Nome da rua - Estado</p>
+            </div>
+
+            <div class='contactSecurity'>
+                <h1>Segurança</h1>
+                <p>
+                    Este site possui um certificado válido,
+                    emitido por uma autoridade confiável.
+                </p>
+                <p>
+                    Isso significa que as informações (como senhas ou cartões de crédito)
+                    serão enviadas com segurança para este site e não poderão ser interceptadas.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>©Sua empresa - Todos os direitos reservados.</p>
+    </footer>
+    <script src="./js/index.js"></script>
 </body>
 </html>
